@@ -1,0 +1,36 @@
+# 1.03
+
+- added Romanian and Urdu as translation language (supported server needed)
+##
+# 1.02
+
+- Retrieve translation languages from server (thx to Kris Doodle for the contribution)
+- UI improvements
+- Translation timeout increased (#1)
+- Migration to Codeberg
+##
+# 1.01
+
+- changed app name
+- fix for servers that require API authentication
+- error message if there's no connection to server
+- error message if translation fails
+- choose if view should be fitted above keyboard or not
+- turkish translation added (thx Oğuz Ersen)
+- russian translation added (thx Koplenov)
+##
+# 1.00
+
+- You can now use your own server for translations
+- can now receive shared text for translation
+- last selected languages are cached
+- new languages:
+    - french (thx Raghnarok05)
+    - polish (thx Gnu. ewm & Agnieszka C)
+    - portuguese (thx Rodolfocandido10)
+- languages are sorted alphabetically (in all languages)
+##
+# Alpha
+
+- initial release
+##

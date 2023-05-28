@@ -1,0 +1,102 @@
+<resources>
+    <string name="aboutAndSettings">Über und Einstellungen</string>
+    <string name="switch_theme">Design wechseln</string>
+    <string name="removeText">Text entfernen</string>
+    <string name="typeToTranslate">Tippe zum Übersetzen…</string>
+    <string name="copy">Kopieren</string>
+    <string name="share">Teilen</string>
+    <string name="chooseSLanguage">Wähle Quell-Sprache</string>
+    <string name="chooseTLanguage">Wähle Ziel-Sprache</string>
+    <string name="switchLanguages">Sprachen tauschen</string>
+
+    <string name="rlyRemoveText">Wirklich den Text löschen?</string>
+    <string name="neverAskAgain">Nie wieder fragen</string>
+    <string name="remove">Löschen</string>
+    <string name="shareTranslation">Teile deine Übersetzung</string>
+    <string name="copiedClipboard">In die Zwischenablage kopiert</string>
+    <string name="chooseLang">Sprache wählen</string>
+    <string name="save">Speichern</string>
+    <string name="abort">Abbrechen</string>
+    <string name="netError">Verbindung zum Server fehlgeschlagen - überprüfe deine Verbindung</string>
+    <string name="langError">\"%s\" ist keine gültige Sprache - bitte melde das, wenn es ein gültiger Sprach-Code ist</string>
+
+    <string name="addCustomServer">Benutzerdefinierte Server-URL eingeben</string>
+    <string name="addApiKey">API-Key hinzufügen (falls nötig)</string>
+    <string name="shrink_view">Ansicht über der Tastatur einpassen</string>
+    <string name="base">Basiert auf <a href="https://libretranslate.de/">LibreTranslate-API</a>, lizenziert unter der <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPLv3</a></string>
+    <string name="info">Fehler gefunden? Komisches Verhalten?\nAuf <a href="https://codeberg.org/BeoCode/LibreTranslator/issues">Codeberg</a> oder per <a href="mailto:libretranslator@beocode.eu">E-Mail</a> melden</string>
+    <string name="created_by">Erstellt von <a href="https://codeberg.org/BeoCode/LibreTranslator">BeoCode</a> lizenziert unter der <a href="https://codeberg.org/BeoCode/LibreTranslator/src/branch/main/LICENSE">EUPL-1.2</a></string>
+    <string name="close">Schließen</string>
+
+    <string-array name="Lang">
+        <item>Arabisch</item>
+        <item>Aserbaidschan</item>
+        <item>Chinesisch</item>
+        <item>Dänisch</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Esperanto</item>
+        <item>Finnisch</item>
+        <item>Französisch</item>
+        <item>Griechisch</item>
+        <item>Hebräisch</item>
+        <item>Hindi</item>
+        <item>Indonesisch</item>
+        <item>Irisch</item>
+        <item>Italienisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Niederländisch</item>
+        <item>Norwegisch</item>
+        <item>Persisch</item>
+        <item>Polnisch</item>
+        <item>Portugiesisch</item>
+        <item>Rumänisch</item>
+        <item>Russisch</item>
+        <item>Schwedisch</item>
+        <item>Slowakisch</item>
+        <item>Spanisch</item>
+        <item>Tschechisch</item>
+        <item>Türkisch</item>
+        <item>Ukrainisch</item>
+        <item>Ungarisch</item>
+        <item>Urdu</item>
+        <item>Vietnamesisch</item>
+    </string-array>
+
+    <string-array name="LangCodes">
+        <item>ar</item>
+        <item>az</item>
+        <item>zh</item>
+        <item>da</item>
+        <item>de</item>
+        <item>en</item>
+        <item>eo</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>el</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>id</item>
+        <item>ga</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>sk</item>
+        <item>es</item>
+        <item>cs</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>hu</item>
+        <item>ur</item>
+        <item>vi</item>
+    </string-array>
+</resources>

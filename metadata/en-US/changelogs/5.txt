@@ -1,0 +1,1 @@
+- added Romanian and Urdu as translation language (supported server needed)
