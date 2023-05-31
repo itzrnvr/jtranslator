@@ -48,8 +48,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        if (settings.getBoolean("shrink", false))
-            window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
+
+        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE)
 
         //Retrieve languages into shared preferences
         retrieveLanguages()
@@ -185,46 +185,16 @@ class MainActivity : AppCompatActivity() {
         //About dialog
         binding.info.setOnClickListener {
             val about: View = layoutInflater.inflate(R.layout.about, null)
-            val shrinkCB = about.findViewById<CheckBox>(R.id.Shrink)
             val tvServerUrl =about.findViewById<TextView>(R.id.tv_serverurl)
             val tv1 = about.findViewById<TextView>(R.id.aboutTV1)
-//            val tv2 = about.findViewById<TextView>(R.id.aboutTV2)
-//            val tv3 = about.findViewById<TextView>(R.id.aboutTV3)
+            val tv2 = about.findViewById<TextView>(R.id.about_serv)
             var server: String? = settings.getString("server", Constants.SERVER)
             val apiKey: String? = settings.getString("apiKey", Constants.API_KEY)
-            val shrink: Boolean = settings.getBoolean("shrink", false)
-//            serverET.setText(server)
-//            apiET.setText(apiKey)
-            tvServerUrl.text = "Current Server: ${Constants.SERVER}"
-            shrinkCB.isChecked = shrink
             tv1.movementMethod = LinkMovementMethod.getInstance()
-//            tv2.movementMethod = LinkMovementMethod.getInstance()
-//            tv3.movementMethod = LinkMovementMethod.getInstance()
+            tv2.movementMethod = LinkMovementMethod.getInstance()
             val popUp = AlertDialog.Builder(this, R.style.AlertDialog)
             popUp.setView(about)
                 .setTitle(getString(R.string.app_name))
-//                .setPositiveButton(getString(R.string.save)) { _, _ ->
-//                    //Remove http/https/www and /translate to prevent errors
-//                    server = serverET.text.toString().replace("http://", "")
-//                        .replace("https://", "")
-//                        .replace("www.", "")
-//                        .replace("/translate", "")
-//                    settings.edit()
-//                        .putString("server", server)
-//                        .putString("apiKey", apiET.text.toString())
-//                        .apply()
-//
-//                    //Retrieve languages into shared preferences
-//                    retrieveLanguages()
-//
-//                    if (shrink != shrinkCB.isChecked) {
-//                        settings.edit()
-//                            .putBoolean("shrink", shrinkCB.isChecked)
-//                            .apply()
-//                        finish()
-//                        startActivity(intent)
-//                    }
-//                }
                 .setNegativeButton(getString(R.string.close)) {_ , _ -> }
                 .show()
 
@@ -416,10 +386,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun theme(): Int {
-        settings = getSharedPreferences("de.beowulf.libretranslater", 0)
+        settings = getSharedPreferences("com.jtranslator.ai", 0)
         return when (settings.getInt("Theme", 1)) {
             1 -> {
-                R.style.DarkTheme
+                R.style.LightTheme
             }
             2 -> {
                 R.style.LilaTheme
@@ -431,7 +401,7 @@ class MainActivity : AppCompatActivity() {
                 R.style.BlueTheme
             }
             else -> {
-                R.style.LightTheme
+                R.style.DarkTheme
             }
         }
     }

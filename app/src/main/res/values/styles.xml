@@ -31,7 +31,6 @@
         <item name="android:windowBackground">@color/colorPrimaryDark</item>
         <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimaryDark</item>
 
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/android_chrome_512x512</item>
     </style>
 
     <style name="LilaTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -48,7 +47,6 @@
         <item name="android:windowBackground">@color/colorPrimaryLila</item>
         <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimaryLila</item>
 
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/android_chrome_512x512</item>
     </style>
 
     <style name="SandTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -80,8 +78,6 @@
         <item name="AlertBackground">@color/colorPrimaryBlue</item>
         <item name="android:windowBackground">@color/colorPrimaryBlue</item>
         <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimaryBlue</item>
-
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/android_chrome_512x512</item>
     </style>
 
     <style name="AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
