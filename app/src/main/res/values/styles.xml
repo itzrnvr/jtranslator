@@ -15,7 +15,6 @@
         <item name="android:navigationBarColor" tools:targetApi="lollipop">@color/colorPrimaryLight</item>
         <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
         <!-- Set a transparent .png as your icon -->
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/android_chrome_512x512</item>
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
