@@ -1,6 +1,6 @@
 # jTraslator
 <img
-src="https://raw.githubusercontent.com/itzrnvr/jtranslator/master/app/src/main/res/drawable/android_chrome_512x512.png" height=75px> **LibreTranslator a translator based on LibreTranslate**
+src="https://raw.githubusercontent.com/itzrnvr/jtranslator/master/app/src/main/res/drawable/android_chrome_512x512.png" height=75px> **jTranslator a translator based on LibreTranslate**
 
 
 ------------
